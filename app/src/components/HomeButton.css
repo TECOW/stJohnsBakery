@@ -1,0 +1,18 @@
+button {
+  width: 400px;
+  text-align: center;
+  display: inline-block;
+  color: rgb(51, 36, 24);
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+  border: none;
+  font-family: "Playfair Display";
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.2rem 1.5rem;
+  border: 1px solid rgb(51, 36, 24);
+  overflow: hidden;
+  background-color: #f1eade;
+  margin-top: 10%;
+}
