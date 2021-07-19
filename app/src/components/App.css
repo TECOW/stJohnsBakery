@@ -2,3 +2,36 @@
   background-image: url("./maru.jpg");
   opacity: 0.97;
 }
+
+.appContainer {
+  max-width:80%;
+}
+
+.bodyBoxes {
+  //margin: 1rem;
+  padding:0;
+}
+
+.breadImage {
+  width:90%;
+  border: 10px white solid;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height:100%;
+  object-fit: cover;
+}
+
+.doubleHeight {
+  width:100%;
+  height:100%;
+  margin: 0;
+}
+
+.singleHeight {
+
+
+  height:50%;
+  margin-bottom: 5px;
+  margin: 0;
+}
