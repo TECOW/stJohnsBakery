@@ -20,7 +20,7 @@ function Header() {
     <div className="websitename">
       <h1>Saint Johns Bakery</h1>
     </div>
-    <Container>
+    <Container className="Headers">
       <Row>
         <Col><HomeButton buttonName="Home" /></Col>
         <Col><HomeButton buttonName="About" /></Col>
