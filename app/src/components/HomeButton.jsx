@@ -11,7 +11,7 @@ function HomeButton(props) {
   }
   return (
     <button
-      style={{ backgroundColor: isMouseOver ? "rgb(51, 36, 24)" : "#f1eade", color: isMouseOver ? "#f1eade" : "rgb(51, 36, 24)"}}
+      style={{ backgroundColor: isMouseOver ? "#3E2B1C" : "#f1eade", color: isMouseOver ? "#f1eade" : "#3E2B1C"}}
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >

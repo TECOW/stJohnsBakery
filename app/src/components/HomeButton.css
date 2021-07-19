@@ -1,9 +1,8 @@
 button {
   text-align: center;
   display: inline-block;
-  color: rgb(51, 36, 24);
-  width: 120%;
-  height: 100%;
+  width: 115.2%;
+  height: 65%;
   font-family: "Playfair Display";
   border: none;
   text-decoration: none;
@@ -11,5 +10,5 @@ button {
   overflow: hidden;
   background-color: #f1eade;
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
