@@ -1,3 +1,4 @@
 .footerCards Card {
   font-family: "Playfair Display";
+  display: inline-block;
 }
