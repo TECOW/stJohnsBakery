@@ -12,5 +12,11 @@
 }
 
 .Headers {
-  max-width: 80%;
+  margin: auto;
+}
+
+.headerButtons {
+  margin-left: 50px;
+  padding-left: 0;
+  margin-right: 300px;
 }

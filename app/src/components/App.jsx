@@ -13,26 +13,26 @@ function App() {
       <div className="heading">
         <Header />
         <Container className="appContainer">
-          <Row>
+          <Row className="appRow">
             <Col className="bodyBoxes" md="4">
               <Row className="doubleHeight">
-                <Image className="breadImage" src={HomeBread1} alt="HomeBread1"/>
+                <Image className="tallBreadImage" src={HomeBread1} alt="HomeBread1"/>
               </Row>
             </Col>
             <Col className="bodyBoxes" md="4">
               <Row className="singleHeight">
-                <Image className="breadImage" src={HomeBread2} alt="HomeBread2"/>
+                <Image className="shortBreadTopImage" src={HomeBread2} alt="HomeBread2"/>
               </Row>
               <Row className="singleHeight">
-                <Image className="breadImage" src={HomeBread3} alt="HomeBread3"/>
+                <Image className="shortBreadBottomImage" src={HomeBread3} alt="HomeBread3"/>
               </Row>
             </Col>
             <Col className="bodyBoxes" md="4">
               <Row className="doubleHeight">
-              <Container>
+              <Container className="textContainer">
                 <h1 className="breadDescription">Baking From The Heart</h1>
-                <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
-                <h2 id="sign">Erin Bae</h2>
+                <p className="homeBodyText">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                <h2 className="sign">Erin Bae</h2>
                 </Container>
               </Row>
             </Col>

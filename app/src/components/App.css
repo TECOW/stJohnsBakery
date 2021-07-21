@@ -4,22 +4,40 @@
 }
 
 .appContainer {
-  max-width: 80%;
+  max-width: 990px;
   max-height: 80%;
+  height:510px;
 }
 
+.appRow {
+  height: 100%;
+}
 
 .bodyBoxes {
   padding:0;
+  height: 100%;
 }
 
-.breadImage {
-  width:90%;
-  height:60%;
+.tallBreadImage {
+  width: 310px;
   border: 10px #f1eade solid;
-  margin: auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 1.5rem 0 1.5rem 20px;
+  object-fit: cover;
+}
+
+.shortBreadTopImage {
+  width: 310px;
+  height: 226px;
+  border: 10px #f1eade solid;
+  margin: 1.5rem 10px 0 10px;
+  object-fit: cover;
+}
+
+.shortBreadBottomImage {
+  width: 310px;
+  height: 226px;
+  border: 10px #f1eade solid;
+  margin: 5px 10px 1.5rem 10px;
   object-fit: cover;
 }
 
@@ -30,62 +48,41 @@
 }
 
 .singleHeight {
-  height:45%;
+  height:50%;
+  width:100%;
   margin: 0;
-  padding-bottom: 0;
 }
 
 .textContainer {
-  max-height: 80%;
-  max-width: 80%;
+  margin: 1.5rem 20px 1.5rem 0;
+  padding: 0;
 }
 
-.doubleHeight h1 {
-  margin-left: 5%;
-  margin-top: 8%;
-  margin-right: 5%;
-  margin-bottom: 0%;
-  height: 17%;
+.breadDescription {
   background: #f1eade;
-  padding-left: 8%;
-  padding-top: 10%;
-  padding-right: 10%;
-  padding-bottom: 0%;
+  padding: 40px 40px 0 25px;
   color: #3E2B1C;
-  font-weight: 700;
+  font-weight: 600;
   font-family: "Playfair Display", serif;
-  font-size: 250%;
-  z-index: 1;
+  font-size: 40px;
+  margin: 0;
 }
 
-#rectangle{
-  display: inline-block;
-    width:200%;
-    height:100%;
-    background:#f1eade;
-}
-
-.doubleHeight p {
-  display: inline;
-  height: 20%;
-  width: 80%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 91%;
-  padding-left: 8%;
-  padding-right: 13%;
-  padding-bottom: 80%;
+.homeBodyText {
+  background:#f1eade;
+  padding: 15px 40px 34px 25px;
   color: #3E2B1C;
   font-weight: 100;
-  font-family: "HelveticaNeue-Light";
+  font-family: 'Advent Pro', sans-serif;;
   font-size: 100%;
-  z-index: 2;
+  margin: 0;
 }
 
-.doubleHeight h2 {
-  display: inline;
+.sign {
+  font-weight: 900;
+  color: #3E2B1C;
   background: #f1eade;
   font-family: 'Mr De Haviland', cursive;
-  margin-left: 45%;
-  margin-top: 2000%;
+  padding: 0 40px 69px 25px;
+  line-height: 40px;
 }
