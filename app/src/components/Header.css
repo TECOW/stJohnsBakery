@@ -12,11 +12,23 @@
 }
 
 .Headers {
+  height:60px;
+  width: 950px;
   margin: auto;
+}
+.headerRow{
+
 }
 
 .headerButtons {
-  margin-left: 50px;
+  margin: 0;
   padding-left: 0;
-  margin-right: 300px;
+  padding-right: 0;
+
+}
+
+.homeButton {
+
+  margin: 19px 0 19px 0;
+  width: 186px;
 }

@@ -21,12 +21,12 @@ function Header() {
       <h1>Saint Johns Bakery</h1>
     </div>
     <Container className="Headers">
-      <Row>
-        <Col><HomeButton buttonName="Home" /></Col>
-        <Col><HomeButton buttonName="About" /></Col>
-        <Col><HomeButton buttonName="Menu" /></Col>
-        <Col><HomeButton buttonName="Order Online" /></Col>
-        <Col><HomeButton buttonName="Contact" /></Col>
+      <Row className="headerRow">
+        <Col className="headerButtons"><HomeButton className="homeButton" buttonName="Home" /></Col>
+        <Col className="headerButtons"><HomeButton className="homeButton" buttonName="About" /></Col>
+        <Col className="headerButtons"><HomeButton className="homeButton" buttonName="Menu" /></Col>
+        <Col className="headerButtons"><HomeButton className="homeButton" buttonName="Order Online" /></Col>
+        <Col className="headerButtons"><HomeButton className="homeButton" buttonName="Contact" /></Col>
       </Row>
       </Container>
     </div>

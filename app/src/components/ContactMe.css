@@ -1,4 +1,10 @@
-.footerCards Card {
-  font-family: "Playfair Display";
-  display: inline-block;
+.footers {
+  width: 950px;
+  margin:
+}
+
+
+.footerCards  {
+  background: #f1eade;
+  padding: 15px 15px 15px 15px;
 }
