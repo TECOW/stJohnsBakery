@@ -4,6 +4,9 @@ import "./About.css"
 import {Container, Row, Col, Image} from "react-bootstrap"
 import HomeBread1 from "./HomeBread1.png";
 import HomeBread2 from "./HomeBread2.png";
+import Angeligus from "./Angeligus.jpg";
+
+
 
 function Menu() {
   return (
