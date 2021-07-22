@@ -1,3 +1,65 @@
+
 .menuLine {
-  border: 5px #57493E solid;
+  border-top: 3px #A6907D solid;
+  margin: 0 30px 0 30px;
+}
+
+.menuTitle {
+  margin: 10px 0 10px 30px;
+  font-size: 30px;
+  color: #52463C;
+  font-family: "Playfair Display", serif;
+  width: 860px;
+}
+
+.menuText {
+  width: 860px;
+  background:#f1eade;
+  margin: 10px 0 10px 30px;
+  color: #3E2B1C;
+  font-weight: 100;
+  font-family: 'Advent Pro', sans-serif;;
+  font-size: 100%;
+}
+
+.menuImage {
+  margin: 10px 0 10px 30px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.menuName {
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 0 10px 150px;
+  width: 700px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #52463C;
+  padding: 0;
+}
+
+.menuPriceLine {
+  border: 0;
+  border-bottom: 1px dashed #A6907D;
+  background: #f1eade;
+  margin-left: 150px;
+  width: 700px
+
+}
+
+.menuPrice {
+  color: #3E2B1C;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  margin: 38px 30px 0 0;
+}
+
+.menuDescription {
+  font-size: 15px;
+  color: #52463C;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 0 10px 150px;
+  width: 700px;
 }

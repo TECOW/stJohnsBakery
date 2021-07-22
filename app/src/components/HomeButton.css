@@ -1,15 +1,11 @@
 button {
-  text-align: center;
-  display: inline-block;
-  width: 115.2%;
-  height: 65%;
+  margin: auto;
+  max-width: 950px;
+  width: 190px;
+  height: 35px;
   font-family: "Playfair Display";
   border: none;
   text-decoration: none;
-  padding: 0.2rem 1.5rem;
-  overflow: hidden;
-  background-color: #f1eade;
-  margin-top: 5%;
-  margin-bottom: 10%;
-  margin-left: -15px;
+  margin: 0;
+  padding: 0;
 }

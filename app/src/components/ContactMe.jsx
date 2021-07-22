@@ -1,27 +1,34 @@
 import React from "react";
 import "./ContactMe.css"
-import {Card, Button, Container, Row, Col} from "react-bootstrap"
+import {Card, Button, Container, Row, Col, Image} from "react-bootstrap"
+import IconFacebook from "./IconFacebook.png"
+import IconInstagram from "./IconInstagram.png"
+import IconTwitter from "./IconTwitter.png"
 
 function Contact() {
   return (
     <div>
-      <Container className="footers">
+      <Container className="contactContainer">
         <Row>
-          <Col className="footerCards">
-            <h1 className="footerTitle">ADDRESS</h1>
-            <p className="footerText">153 Broadview Avenue, Toronto, Ontario M4M 2E9</p>
+          <Col className="contactCards">
+            <h1 className="contactTitle">ADDRESS</h1>
+            <p className="contactText">153 Broadview Avenue, Toronto, Ontario M4M 2E9</p>
           </Col>
-          <Col className="footerCards">
-          <h1 className="footerTitle">HOURS</h1>
-          <p className="footerText">Mon - Fri: 6am - 7pm ​​Sat - Sun: 8am - 8pm</p>
+          <Col className="contactCards">
+            <h1 className="contactTitle">HOURS</h1>
+            <p className="contactText">Mon - Fri: 6am - 7pm<br />​​Sat - Sun: 8am - 8pm</p>
           </Col>
-          <Col className="footerCards">
-          <h1 className="footerTitle">CONTACT</h1>
-          <p className="footerText">416-850-7413 info@stjohnsbakery.com</p>
+          <Col className="contactCards">
+            <h1 className="contactTitle">CONTACT</h1>
+            <p className="contactText">416-850-7413<br />info@stjohnsbakery.com</p>
           </Col>
-          <Col className="footerCards">
-          <h1 className="footerTitle">FOLLOW</h1>
-          <p className="footerText">ikons</p>
+          <Col className="contactCards">
+            <h1 className="contactTitle">FOLLOW</h1>
+            <Container className="contactIconContainer">
+            <Image className="contactIcons" src={IconFacebook} alt="IconFacebook"/>
+            <Image className="contactIcons" src={IconTwitter} alt="IconTwitter"/>
+            <Image className="contactIcons" src={IconInstagram} alt="IconInstagram"/>
+            </Container>
           </Col>
         </Row>
       </Container>

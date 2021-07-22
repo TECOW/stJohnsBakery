@@ -6,29 +6,27 @@
   font-weight: 700;
   display: block;
   font-family: "Playfair Display", serif;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  font-size: 300%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  font-size: 48px;
 }
 
 .Headers {
   height:60px;
-  width: 950px;
+  width: 940px;
   margin: auto;
+  margin-left: 270px;
 }
 .headerRow{
-
+  margin: auto;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  width: 950px;
 }
 
 .headerButtons {
   margin: 0;
   padding-left: 0;
   padding-right: 0;
-
-}
-
-.homeButton {
-
-  margin: 19px 0 19px 0;
-  width: 186px;
 }

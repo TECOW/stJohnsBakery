@@ -1,10 +1,35 @@
-.footers {
+.contactContainer {
   width: 950px;
-  margin:
 }
 
 
-.footerCards  {
+.contactCards  {
   background: #f1eade;
-  padding: 15px 15px 15px 15px;
+  padding: 30px 30px 30px 30px;
+}
+
+.contactTitle {
+  color: #3E2B1C;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contactText {
+  color: #3E2B1C;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+.contactIconContainer {
+  margin: auto;
+  text-align: center;
+}
+
+.contactIcons {
+  margin: 0 2px 0 2px;
+  width: 20px;
+  height: 20px;
 }

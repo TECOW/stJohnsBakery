@@ -2,6 +2,7 @@
   background: #f1eade;
   width: 950px;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 .aboutTitle {
@@ -21,6 +22,19 @@
   margin: 40px 180px 40px 180px;
   padding: 0px 10px 0px 10px;
 }
+
+.aboutPictureCol {
+  padding: 0;
+}
+
+.aboutDescription {
+  font-size: 15px;
+  color: #52463C;
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 30px 10px 30px;
+}
+
+
 
 .aboutBreadImageLeft {
   margin: 0 0 0 5px;

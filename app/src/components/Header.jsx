@@ -18,7 +18,7 @@ function Header() {
   return (
     <div>
     <div className="websitename">
-      <h1>Saint Johns Bakery</h1>
+      <h1 headerWebsiteName>Saint Johns Bakery</h1>
     </div>
     <Container className="Headers">
       <Row className="headerRow">

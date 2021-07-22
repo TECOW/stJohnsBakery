@@ -14,29 +14,29 @@ function About() {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col className="aboutPictureCol">
             <Image className="aboutBreadImageLeft" src={HomeBread1} alt="HomeBread1"/>
+            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
           </Col>
-          <Col>
+          <Col className="aboutPictureCol">
             <Image className="aboutBreadImageRight" src={HomeBread1} alt="HomeBread1"/>
+            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
           </Col>
-          <Col>
+          <Col className="aboutPictureCol">
             <Image className="aboutBreadImageLeft" src={HomeBread1} alt="HomeBread1"/>
+            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
           </Col>
-          <Col>
+          <Col className="aboutPictureCol">
             <Image className="aboutBreadImageRight" src={HomeBread1} alt="HomeBread1"/>
+            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
           </Col>
-          <Col>
+          <Col className="aboutPictureCol">
             <Image className="aboutBreadImageLeft" src={HomeBread1} alt="HomeBread1"/>
+            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
           </Col>
-          <Col>
+          <Col className="aboutPictureCol">
             <Image className="aboutBreadImageRight" src={HomeBread1} alt="HomeBread1"/>
-          </Col>
-          <Col>
-            <Image className="aboutBreadImageLeft" src={HomeBread1} alt="HomeBread1"/>
-          </Col>
-          <Col>
-            <Image className="aboutBreadImageRight" src={HomeBread1} alt="HomeBread1"/>
+            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
           </Col>
         </Row>
       </Container>
