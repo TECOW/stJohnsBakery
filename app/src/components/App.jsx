@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "./Header";
-import "./App.css"
+import "./App.css";
 import {Container, Row, Col, Image} from "react-bootstrap";
-import Contact from "./ContactMe"
-import About from "./About"
-import Menu from "./Menu"
-import OrderOnline from "./OrderOnline"
-import HomeBread1 from "./HomeBread1.png";
-import HomeBread2 from "./HomeBread2.png";
-import HomeBread3 from "./HomeBread3.png";
+import Contact from "./ContactMe";
+import About from "./About";
+import Menu from "./Menu";
+import OrderOnline from "./OrderOnline";
+import breads from "../breads.json";
+import sweets from "../sweets.json";
+import bakings from "../bakings.json";
 
 function App() {
   return (
@@ -19,15 +19,15 @@ function App() {
           <Row className="appRow">
             <Col className="bodyBoxes" md="4">
               <Row className="doubleHeight">
-                <Image className="tallBreadImage" src={HomeBread1} alt="HomeBread1"/>
+                <Image className="tallBreadImage" src="/images/HomeBread1.png" alt="HomeBread1"/>
               </Row>
             </Col>
             <Col className="bodyBoxes" md="4">
               <Row className="singleHeight">
-                <Image className="shortBreadTopImage" src={HomeBread2} alt="HomeBread2"/>
+                <Image className="shortBreadTopImage" src="/images/HomeBread2.png" alt="HomeBread2"/>
               </Row>
               <Row className="singleHeight">
-                <Image className="shortBreadBottomImage" src={HomeBread3} alt="HomeBread3"/>
+                <Image className="shortBreadBottomImage" src="/images/HomeBread3.png" alt="HomeBread3"/>
               </Row>
             </Col>
             <Col className="bodyBoxes" md="4">
@@ -42,8 +42,12 @@ function App() {
           </Row>
         </Container>
       </div>
-          <About />
-          <Menu />
+          <About
+          bakings={bakings.bakings}/>
+          <Menu
+          breads={breads.breads}
+          sweets={sweets.sweets}
+          />
           <OrderOnline />
       <div className="footer">
         <Contact />

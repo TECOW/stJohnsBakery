@@ -1,0 +1,16 @@
+{
+  "sweets": [
+    {
+      "name": "Cream Scones",
+      "description": "Blueberry, Orange Chocolate & Cranberry Pumpkin",
+      "price": "9",
+      "imagePath": "/images/Cream_Scones.jpg"
+    },
+    {
+      "name": "Old Fashioned Ginger Cookies",
+      "description": "So good, we provide them all year!",
+      "price": "9",
+      "imagePath": "/images/Banana_Bread.jpg"
+    }
+  ]
+}

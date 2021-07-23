@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./About.css"
 import {Container, Row, Col, Image} from "react-bootstrap"
-import HomeBread1 from "./HomeBread1.png";
 
-function About() {
+function About(props) {
   return (
     <div className="aboutContainer">
       <Container>
@@ -14,30 +13,13 @@ function About() {
           </Col>
         </Row>
         <Row>
-          <Col className="aboutPictureCol">
-            <Image className="aboutBreadImageLeft" src={HomeBread1} alt="HomeBread1"/>
-            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
-          </Col>
-          <Col className="aboutPictureCol">
-            <Image className="aboutBreadImageRight" src={HomeBread1} alt="HomeBread1"/>
-            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
-          </Col>
-          <Col className="aboutPictureCol">
-            <Image className="aboutBreadImageLeft" src={HomeBread1} alt="HomeBread1"/>
-            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
-          </Col>
-          <Col className="aboutPictureCol">
-            <Image className="aboutBreadImageRight" src={HomeBread1} alt="HomeBread1"/>
-            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
-          </Col>
-          <Col className="aboutPictureCol">
-            <Image className="aboutBreadImageLeft" src={HomeBread1} alt="HomeBread1"/>
-            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
-          </Col>
-          <Col className="aboutPictureCol">
-            <Image className="aboutBreadImageRight" src={HomeBread1} alt="HomeBread1"/>
-            <p className="aboutDescription">I'm a paragraph. Click here to add your own text and edit me. It’s easy. </p>
-          </Col>
+          {props.bakings.map(baking => {
+            return (
+            <Col className="aboutPictureCol">
+              <Image className="aboutBreadImageLeft" src={baking.imagePath} alt="HomeBread1"/>
+              <p className="aboutDescription">{baking.description}</p>
+            </Col>
+          )})}
         </Row>
       </Container>
     </div>

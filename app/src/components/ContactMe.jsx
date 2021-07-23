@@ -1,9 +1,9 @@
 import React from "react";
 import "./ContactMe.css"
 import {Card, Button, Container, Row, Col, Image} from "react-bootstrap"
-import IconFacebook from "./IconFacebook.png"
-import IconInstagram from "./IconInstagram.png"
-import IconTwitter from "./IconTwitter.png"
+import IconFacebook from "../images/IconFacebook.png"
+import IconInstagram from "../images/IconInstagram.png"
+import IconTwitter from "../images/IconTwitter.png"
 
 function Contact() {
   return (

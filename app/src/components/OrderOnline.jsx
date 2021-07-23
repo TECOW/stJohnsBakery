@@ -2,10 +2,8 @@ import React from "react";
 import "./OrderOnline.css"
 import "./About.css"
 import {Card, Button, Container, Row, Col, Image} from "react-bootstrap"
-import HomeBread1 from "./HomeBread1.png";
-import HomeBread2 from "./HomeBread2.png";
-
-
+import HomeBread1 from "../images/HomeBread1.png";
+import HomeBread2 from "../images/HomeBread2.png";
 
 function OrderOnline() {
   return (

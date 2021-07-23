@@ -1,0 +1,20 @@
+{
+  "bakings": [
+    {
+      "imagePath":"/images/bakings1.jpg",
+      "description": "I am baking"
+    },
+    {
+      "imagePath":"/images/bakings2.jpg",
+      "description": "I am baking"
+    },
+    {
+      "imagePath":"/images/bakings3.jpg",
+      "description": "I am baking"
+    },
+    {
+      "imagePath":"/images/bakings4.jpg",
+      "description": "I am baking"
+    }
+  ]
+}
