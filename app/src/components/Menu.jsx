@@ -22,7 +22,7 @@ function Menu(props) {
           {props.breads.map(bread => {
             return (
               <Col>
-                <Image className="menuImage" src={bread.imagePath} alt="HomeBread1"/>
+                <Image className="menuImage" src={bread.imagePath} alt={bread.name}/>
                 <p className="menuPrice">${bread.price}</p>
                 <h2 className="menuName">{bread.name}</h2>
                 <hr className="menuPriceLine" />
@@ -38,7 +38,7 @@ function Menu(props) {
           {props.sweets.map(sweet => {
             return (
               <Col>
-                <Image className="menuImage" src={sweet.imagePath} alt="HomeBread1"/>
+                <Image className="menuImage" src={sweet.imagePath} alt={sweet.name}/>
                 <p className="menuPrice">${sweet.price}</p>
                 <h2 className="menuName">{sweet.name}</h2>
                 <hr className="menuPriceLine" />

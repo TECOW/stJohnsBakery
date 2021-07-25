@@ -48,7 +48,10 @@ function App() {
           breads={breads.breads}
           sweets={sweets.sweets}
           />
-          <OrderOnline />
+          <OrderOnline
+          breads={breads.breads}
+          sweets={sweets.sweets}
+          />
       <div className="footer">
         <Contact />
       </div>
