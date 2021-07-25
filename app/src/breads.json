@@ -7,94 +7,89 @@
       "imagePath": "/images/Angeligus.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Cassoni Whole Wheat Sourdough",
+      "description": "This hearty, healthy bread is rich in flavour and texture.",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/Cassoni.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Celtic Multigrain Sourdough",
+      "description": "A robust masterpiece containing a variety of seeds, oats and meals. Nutty and earthy in taste.",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Celtic.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Cilantro Olive Sourdough",
+      "description": "Our signature offering! Black Olives, Cilantro & Green Onions",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Cilantro_Olive.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Country Rye Sourdough",
+      "description": "This medium textured old world recipe has an amazing light rye taste.",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Country_Rye.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Maria (Light Sourdough)",
+      "description": "A white Italian-Style bread with a soft, relaxed texture.",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Maria.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Marble Sourdough",
+      "description": "A delicious combination of white and light rye organic flours.",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Marble.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Walnut Raisin Sourdough",
+      "description": "The perfect breakfast bread!",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Walnut_Raisin.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Spelt (Non-Sourdough)",
+      "description": "A pleasing, nutty flavour with substantial texture. Made from 100% organic Spelt flour.",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Spelt.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Brie (Non-Sourdough)",
+      "description": "A traditional Normandy recipe. (Contains eggs and butter).",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Brie.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Baguette (White / Non Sourdough)",
+      "description": "Medium crust with a chewy inside.",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Baguette.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Multigrain Baguette (Non-Sourdough)",
+      "description": "Our French baguette with whole grain and seeds.",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Multigrain_Baguette.jpg"
+    },
+    {"name": "Restaurant / Peasant Size Loaves",
+    "description": "Available: Angeligus, Celtic, Country Rye, Maria & Cilantro Olive",
+    "price": "9",
+    "imagePath": "/images/Restaurant_Size.jpg"
+
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Sandwich Buns",
+      "description": "Made from white organic flour, these buns have a delicate taste and soft texture.",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Sandwich_Buns.jpg"
     },
     {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
+      "name": "Dinner Rolls",
+      "description": "Available: Celtic, Maria, Angeligus & Cilantro Olive",
       "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
-    },
-    {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
-      "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
-    },
-    {
-      "name": "Angeligus White Sourdough",
-      "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
-      "price": "9",
-      "imagePath": "/images/Angeligus.jpg"
+      "imagePath": "/images/Dinner_Rolls.jpg"
     }
+
   ]
 }

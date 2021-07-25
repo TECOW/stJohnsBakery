@@ -1,16 +1,28 @@
 {
   "sweets": [
     {
+      "name": "English Muffins",
+      "description": "This traditional recipe came to us via Goose Bay, Labrador",
+      "price": "9",
+      "imagePath": "/images/English-Muffin.jpg"
+    },
+    {
       "name": "Cream Scones",
       "description": "Blueberry, Orange Chocolate & Cranberry Pumpkin",
       "price": "9",
       "imagePath": "/images/Cream_Scones.jpg"
     },
     {
+      "name": "Banana Bread",
+      "description": "This customer favourite is packed with bananas.",
+      "price": "9",
+      "imagePath": "/images/Banana_Bread.jpg"
+    },
+    {
       "name": "Old Fashioned Ginger Cookies",
       "description": "So good, we provide them all year!",
       "price": "9",
-      "imagePath": "/images/Banana_Bread.jpg"
+      "imagePath": "/images/Ginger_Cookie.jpg"
     }
   ]
 }
