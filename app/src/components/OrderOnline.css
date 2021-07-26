@@ -9,6 +9,14 @@
   border: 5px #57493E solid;
 }
 
+#orderId-tab-breads {
+  color: #3E2B1C;
+}
+
+#orderId-tab-sweets {
+  color: #3E2B1C;
+}
+
 .orderMenu{
   width: 870px;
   font-weight: bold;

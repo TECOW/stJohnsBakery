@@ -1,9 +1,8 @@
 import React from "react";
 import "./OrderOnline.css"
-import "./About.css"
+
 import {Card, Button, Container, Row, Col, Image, Tabs, Tab} from "react-bootstrap"
-import HomeBread1 from "../images/HomeBread1.png";
-import HomeBread2 from "../images/HomeBread2.png";
+
 
 function OrderOnline(props) {
   return (
@@ -20,8 +19,8 @@ function OrderOnline(props) {
           <hr className="orderLine" />
         </Col>
       </Row>
-        <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
-          <Tab eventKey="Breads" title="Breads" className="orderTab">
+        <Tabs defaultActiveKey="breads" id="orderId" className="orderTabs">
+          <Tab eventKey="breads" title="Breads">
             {props.breads.map(bread => {
               return (
                 <Card className="orderCard">
@@ -35,7 +34,7 @@ function OrderOnline(props) {
               )
             })}
           </Tab>
-          <Tab eventKey="Sweets" title="Sweets">
+          <Tab eventKey="sweets" title="Sweets">
             {props.sweets.map(sweet => {
               return (
                 <Card className="orderCard">
