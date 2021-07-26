@@ -2,10 +2,11 @@ import React, {useEffect, useState} from "react";
 import Header from "./Header";
 import "./App.css";
 import {Container, Row, Col, Image} from "react-bootstrap";
-import Contact from "./ContactMe";
+import Contact from "./Contact";
 import About from "./About";
 import Menu from "./Menu";
 import OrderOnline from "./OrderOnline";
+import Footer from "./Footer";
 
 function App() {
   const [breads, setBreads] = useState([]);
@@ -71,9 +72,7 @@ function App() {
           breads={breads}
           sweets={sweets}
           />
-      <div className="footer">
         <Contact />
-      </div>
     </div>
   );
 }

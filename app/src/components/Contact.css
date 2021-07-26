@@ -1,0 +1,17 @@
+.contactContainer {
+  background: #f1eade;
+  width: 950px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.contactLogo {
+  text-align: center;
+  font-size: 30px;
+  color: #52463C;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  margin: 40px 300px 30px 300px;
+  padding: 10px 10px 10px 10px;
+  border: 5px #57493E solid;
+}

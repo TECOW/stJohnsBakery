@@ -9,7 +9,7 @@ function OrderOnline(props) {
     <Container className="orderContainer">
       <Row>
         <Col>
-          <h1 className="orderOnlinelogo">ORDER ONLINE</h1>
+          <h1 className="orderOnlineLogo">ORDER ONLINE</h1>
         </Col>
       </Row>
       <Row>
