@@ -1,14 +1,47 @@
+.orderOnlinelogo {
+  text-align: center;
+  font-size: 30px;
+  color: #52463C;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  margin: 40px 300px 30px 300px;
+  padding: 10px 10px 10px 10px;
+  border: 5px #57493E solid;
+}
+
+.orderMenu{
+  width: 870px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  color: #3E2B1C;
+  font-size: 30px;
+  margin: 0 0 0 15px;
+}
+
+.orderLine {
+  border-top: 3px #A6907D solid;
+  margin: 10px 30px 10px 10px;
+}
+
 .orderContainer {
   width: 950px;
   margin: auto;
   background: #f1eade;
 }
 
+.orderCol {
+  width: 280px;
+}
+
+.orderTab {
+  color: #A6907D;
+}
+
 .orderCard {
   top: 0;
   width: 280px;
   height: 434px;
-  margin: 10px 10px 0 10px;
+  margin: 10px 10px 10px 10px;
   background: #f1eade;
   display: inline-block;
 }
@@ -20,13 +53,22 @@
 }
 
 .orderTitle {
-
+  height: 50px;
+  font-family: "Playfair Display", serif;
+  color: #3E2B1C;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .orderText {
-
+  height: 75px;
+  font-family: 'Open Sans', sans-serif;
+  color: #6B5644;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 .orderPrice {
-
+  font-family: "Playfair Display", serif;
+  color: #6B5644;
 }
