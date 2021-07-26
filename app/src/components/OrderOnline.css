@@ -1,0 +1,32 @@
+.orderContainer {
+  width: 950px;
+  margin: auto;
+  background: #f1eade;
+}
+
+.orderCard {
+  top: 0;
+  width: 280px;
+  height: 434px;
+  margin: 10px 10px 0 10px;
+  background: #f1eade;
+  display: inline-block;
+}
+
+.orderImage {
+  width: 280px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.orderTitle {
+
+}
+
+.orderText {
+
+}
+
+.orderPrice {
+
+}

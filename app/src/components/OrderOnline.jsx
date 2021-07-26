@@ -7,15 +7,15 @@ import HomeBread2 from "../images/HomeBread2.png";
 
 function OrderOnline(props) {
   return (
-    <Container className="orderOnlineContainer">
+    <Container className="orderContainer">
     {props.breads.map(bread => {
       return (
-        <Card style={{ width: '280px' }}>
-          <Card.Img variant="top" src={bread.imagePath} />
+        <Card className="orderCard">
+          <Card.Img variant="top" src={bread.imagePath} className="orderImage"/>
           <Card.Body>
-          <Card.Title>{bread.name}</Card.Title>
-          <Card.Text>{bread.description}</Card.Text>
-          <Card.Text>${bread.price}</Card.Text>
+          <Card.Title className="orderTitle">{bread.name}</Card.Title>
+          <Card.Text className="orderText">{bread.description}</Card.Text>
+          <Card.Text className="orderPrice">${bread.price}</Card.Text>
           </Card.Body>
         </Card>
       )
