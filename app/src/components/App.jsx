@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import Header from "./Header";
 import "./App.css";
 import {Container, Row, Col, Image} from "react-bootstrap";
@@ -6,11 +6,30 @@ import Contact from "./ContactMe";
 import About from "./About";
 import Menu from "./Menu";
 import OrderOnline from "./OrderOnline";
-import breads from "../breads.json";
-import sweets from "../sweets.json";
-import bakings from "../bakings.json";
 
 function App() {
+  const [breads, setBreads] = useState([]);
+  const [bakings, setBakings] = useState([]);
+  const [sweets, setSweets] = useState([]);
+
+  useEffect(() => {
+    fetch("/breads")
+      .then((res) => res.json())
+      .then((data) => setBreads(data.breads));
+    }, []);
+
+  useEffect(() => {
+    fetch("/bakings")
+      .then((res) => res.json())
+      .then((data) => setBakings(data.bakings));
+    }, []);
+
+  useEffect(() => {
+    fetch("/sweets")
+      .then((res) => res.json())
+      .then((data) => setSweets(data.sweets));
+    }, []);
+
   return (
     <div className="HomeBody">
       <div className="heading">
@@ -43,14 +62,14 @@ function App() {
         </Container>
       </div>
           <About
-          bakings={bakings.bakings}/>
+          bakings={bakings}/>
           <Menu
-          breads={breads.breads}
-          sweets={sweets.sweets}
+          breads={breads}
+          sweets={sweets}
           />
           <OrderOnline
-          breads={breads.breads}
-          sweets={sweets.sweets}
+          breads={breads}
+          sweets={sweets}
           />
       <div className="footer">
         <Contact />
