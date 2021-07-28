@@ -2,19 +2,19 @@
   "bakings": [
     {
       "imagePath":"/images/bakings1.jpg",
-      "description": "I am baking"
+      "description": "In our humble beginning, St John's Bakery was born while a homeless Hungarian ex-baker taught us how to make beautiful sourdough bread in St John's Mission. Thirty four years later, you can find our products in the finest grocery outlets, restaurants and farmers markets as many recognize us as one of Toronto's most unique artisan bakeries."
     },
     {
       "imagePath":"/images/bakings2.jpg",
-      "description": "I am baking"
+      "description": "Since day one, we strived to make the highest quality French sourdough products. Proudly, our recipes come to us from Brittany France following a strict traditional methodology. Our hand-crafted bread takes an excess of 48 hours start to finish while certified organic flour is always our starting point."
     },
     {
       "imagePath":"/images/bakings3.jpg",
-      "description": "I am baking"
+      "description": "Over the years, we have been proud recipients of social employment awards. Toronto Life, Toronto Star and United Way just to name a few. As an extension of St John the Compassionate Mission, we created the bakery not out of greed but rather a place of employment for individuals less fortunate. In general, we just wanted to make a difference."
     },
     {
       "imagePath":"/images/bakings4.jpg",
-      "description": "I am baking"
+      "description": "We have been successful training some of the best bakers in the city through this social mandate. It is extremely important that our employees be prepared for permanent work beyond our door. Providing skill sets and more importantly individual healing has always been our number one goal."
     }
   ]
 }

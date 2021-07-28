@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./About.css"
 import {Container, Row, Col, Image} from "react-bootstrap"
 
@@ -16,7 +16,7 @@ function About(props) {
           {props.bakings.map(baking => {
             return (
             <Col className="aboutPictureCol">
-              <Image className="aboutBreadImageLeft" src={baking.imagePath} alt="HomeBread1"/>
+              <Image className="aboutBreadImageLeft" src={baking.imagePath} alt="About1"/>
               <p className="aboutDescription">{baking.description}</p>
             </Col>
           )})}

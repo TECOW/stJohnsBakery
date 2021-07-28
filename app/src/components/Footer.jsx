@@ -1,10 +1,12 @@
 import React from "react";
+import "./Footer.css"
 import { Container, Row, Col, Image } from "react-bootstrap"
 import IconFacebook from "../images/IconFacebook.png"
 import IconInstagram from "../images/IconInstagram.png"
 import IconTwitter from "../images/IconTwitter.png"
 
 function Footer() {
+  return (
   <Container className="footerContainer">
     <Row>
       <Col className="footerCards">
@@ -22,13 +24,20 @@ function Footer() {
       <Col className="footerCards">
         <h1 className="footerTitle">FOLLOW</h1>
         <Container className="footerIconContainer">
-        <Image className="footerIcons" src={IconFacebook} alt="IconFacebook"/>
-        <Image className="footerIcons" src={IconTwitter} alt="IconTwitter"/>
-        <Image className="footerIcons" src={IconInstagram} alt="IconInstagram"/>
+        <a href="https://www.facebook.com/stjbakery">
+          <Image className="footerIcons" src={IconFacebook} alt="IconFacebook"/>
+        </a>
+        <a href="https://twitter.com/StJohnsBakery">
+          <Image className="footerIcons" src={IconTwitter} alt="IconTwitter"/>
+        </a>
+        <a href="https://www.instagram.com/stjohnsbakery/?hl=en">
+          <Image className="footerIcons" src={IconInstagram} alt="IconInstagram"/>
+        </a>
         </Container>
       </Col>
     </Row>
   </Container>
+)
 }
 
 export default Footer;

@@ -31,7 +31,9 @@
   font-size: 15px;
   color: #52463C;
   font-family: 'Open Sans', sans-serif;
-  margin: 10px 30px 10px 30px;
+  margin: 15px 30px 20px 30px;
+  border: 2px #A6907D solid;
+  padding: 10px 10px 10px 10px;
 }
 
 
@@ -40,6 +42,8 @@
   margin: 0 0 0 5px;
   display: inline;
   width: 470px;
+  height: 270px;
+  object-fit: cover;
   border: 5px #f1eade solid;
 }
 

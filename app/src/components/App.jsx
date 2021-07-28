@@ -33,7 +33,6 @@ function App() {
 
   return (
     <div className="HomeBody">
-      <div className="heading">
         <Header />
         <Container className="appContainer">
           <Row className="appRow">
@@ -61,8 +60,8 @@ function App() {
             </Col>
           </Row>
         </Container>
-      </div>
           <About
+          id="middle"
           bakings={bakings}/>
           <Menu
           breads={breads}
@@ -73,6 +72,7 @@ function App() {
           sweets={sweets}
           />
         <Contact />
+        <Footer />
     </div>
   );
 }

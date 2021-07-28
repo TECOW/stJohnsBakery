@@ -3,6 +3,7 @@
   width: 950px;
   margin: auto;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .contactLogo {
@@ -14,4 +15,51 @@
   margin: 40px 300px 30px 300px;
   padding: 10px 10px 10px 10px;
   border: 5px #57493E solid;
+}
+
+.contactInputGroup{
+  margin: 5px 0 5px 0;
+}
+
+.contactInputContainer {
+  margin: 10px 0 10px 0;
+}
+
+.contactSubmitButton {
+  border: none;
+  margin: 5px 0 30px 325px;
+  width: 90px;
+}
+.contactInputDescription {
+  font-family: "Playfair Display", serif;
+  color: #52463C;
+}
+
+.contactName::placeholder {
+  font-family: "Playfair Display", serif;
+}
+
+.contactEmail::placeholder {
+  font-family: "Playfair Display", serif;
+}
+
+.contactPhone::placeholder {
+  font-family: "Playfair Display", serif;
+}
+
+.contactTextArea::placeholder{
+  font-family: "Playfair Display", serif;
+}
+
+.mapouter {
+  position:relative;
+  text-align:right;
+  height:300px;
+  width:400px;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none;
+  height:300px;
+  width:400px;
 }

@@ -12,11 +12,10 @@
 }
 
 .Headers {
-  height:60px;
-  width: 940px;
-  margin: auto;
-  margin-left: 270px;
+  height: 60px;
+  text-align: center;
 }
+
 .headerRow{
   margin: auto;
   height: 60px;

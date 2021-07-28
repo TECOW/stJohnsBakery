@@ -15,6 +15,7 @@ function Header() {
   function handleMouseOut() {
     setMouseOver(false);
   }
+
   return (
     <div>
     <div className="websitename">
@@ -22,8 +23,8 @@ function Header() {
     </div>
     <Container className="Headers">
       <Row className="headerRow">
-        <Col className="headerButtons"><HomeButton className="homeButton" buttonName="Home" /></Col>
-        <Col className="headerButtons"><HomeButton className="homeButton" buttonName="About" /></Col>
+        <Col className="headerButtons"><HomeButton className="homeButton" buttonName="Home"/></Col>
+        <Col className="headerButtons"><HomeButton className="homeButton" buttonName="About"/></Col>
         <Col className="headerButtons"><HomeButton className="homeButton" buttonName="Menu" /></Col>
         <Col className="headerButtons"><HomeButton className="homeButton" buttonName="Order Online" /></Col>
         <Col className="headerButtons"><HomeButton className="homeButton" buttonName="Contact" /></Col>
