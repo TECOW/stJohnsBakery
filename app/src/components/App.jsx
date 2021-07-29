@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import Header from "./Header";
 import "./App.css";
-import {Container, Row, Col, Image} from "react-bootstrap";
+import {Container, Row, Col, Image, Tabs, Tab} from "react-bootstrap";
 import Contact from "./Contact";
 import About from "./About";
 import Menu from "./Menu";
@@ -34,6 +34,7 @@ function App() {
   return (
     <div className="HomeBody">
         <Header />
+        <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
         <Container className="appContainer">
           <Row className="appRow">
             <Col className="bodyBoxes" md="4">
@@ -73,6 +74,7 @@ function App() {
           />
         <Contact />
         <Footer />
+      </Tabs>
     </div>
   );
 }

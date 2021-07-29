@@ -15,6 +15,7 @@ function Contact() {
   function handleMouseClick() {
     setMouseClicked(true)
   }
+  var link = "choihyoeun04@gmail.com" + "?body=" ;
   return (
     <div>
       <Container className="contactContainer">
@@ -34,7 +35,7 @@ function Contact() {
               <Row>
                 <Col>
                 <InputGroup className="contactInputGroup">
-                <FormControl placeholder="Name" aria-label="contactName" className="contactName" />
+                  <FormControl placeholder="Name" aria-label="contactName" className="contactName" /*value={contactName}*//>
                 </InputGroup>
 
                 </Col>
@@ -62,7 +63,7 @@ function Contact() {
               </Row>
               <Row>
                 <Col>
-                <a href="mailto:choihyoeun04@gmail.com">
+                <a href={link}>
                   <button
                     className="contactSubmitButton"
                     style={{ backgroundColor: isMouseOver ? "#05B0C6" : "#EA8B11", color: isMouseOver ? "#FFFFFF" : "#52463C"}}

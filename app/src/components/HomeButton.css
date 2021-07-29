@@ -2,10 +2,35 @@
   margin: auto;
   max-width: 950px;
   width: 190px;
-  height: 35px;
+  height: 56px;
   font-family: "Playfair Display";
   border: none;
   text-decoration: none;
   margin: 0;
   padding: 0;
+}
+
+.homeNavBar {
+  background-color: #f1eade;
+  height: 56px;
+}
+
+h3 {
+  margin: auto;
+  width: 190px;
+  color: #3E2B1C;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  padding: 12px 0 5px 0;
+  height: 56px;
+}
+
+.navbarCol {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.homeButtons:hover {
+  background-color: blue;
 }

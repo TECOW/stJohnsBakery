@@ -1,4 +1,5 @@
-.websitename h1 {
+
+.headerWebsiteName {
   background: url("../images/WebsiteLogo.png") no-repeat center;
   margin: auto;
   text-align: center;
@@ -11,21 +12,34 @@
   font-size: 48px;
 }
 
-.Headers {
-  height: 60px;
-  text-align: center;
-}
-
-.headerRow{
-  margin: auto;
-  height: 60px;
-  margin: 0;
-  padding: 0;
-  width: 950px;
+.homeButton {
+  width: 190px;
 }
 
 .headerButtons {
-  margin: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0 0 0 0;
+}
+.homeNavBar {
+  background-color: #f1eade;
+  height: 56px;
+}
+
+
+.headerDiv {
+  margin-top: 56px;
+}
+.navbarCol {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+h3 {
+  margin: auto;
+  width: 190px;
+  color: #3E2B1C;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  padding: 12px 0 5px 0;
+  height: 56px;
 }
