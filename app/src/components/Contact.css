@@ -36,6 +36,11 @@
   color: #52463C;
 }
 
+.contactTextArea {
+  resize: none;
+  height: 130px;
+}
+
 .contactName::placeholder {
   font-family: "Playfair Display", serif;
 }

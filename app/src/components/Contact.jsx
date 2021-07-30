@@ -14,8 +14,12 @@ function Contact() {
   }
   function handleMouseClick() {
     setMouseClicked(true)
-  }
-  var link = "choihyoeun04@gmail.com" + "?body=" ;
+    var input = document.getElementById("nameInput").value + " " + document.getElementById("emailInput").value + " " + document.getElementById("phoneInput").value + " " + document.getElementById("messageInput").value;
+    /*input[0].select();
+    document.execCommand("copy");*/
+    alert("Please copy this to the body section of the email : " + (input));
+}
+
   return (
     <div>
       <Container className="contactContainer">
@@ -35,7 +39,7 @@ function Contact() {
               <Row>
                 <Col>
                 <InputGroup className="contactInputGroup">
-                  <FormControl placeholder="Name" aria-label="contactName" className="contactName" /*value={contactName}*//>
+                  <FormControl type="text" name="name" placeholder="Name" className="contactName" id="nameInput"/>
                 </InputGroup>
 
                 </Col>
@@ -43,27 +47,26 @@ function Contact() {
               <Row>
                 <Col>
                   <InputGroup className="contactInputGroup">
-                    <FormControl placeholder="Email" aria-label="contactEmail" className="contactEmail" />
+                    <FormControl type="text" name="Email" placeholder="Email" className="contactEmail" id="emailInput" />
                   </InputGroup>
                 </Col>
               </Row>
               <Row>
                 <Col>
                   <InputGroup className="contactInputGroup">
-                    <FormControl placeholder="Phone" aria-label="contactPhone" className="contactPhone" />
+                    <FormControl type="text" name="Phone" placeholder="Phone" className="contactPhone" id="phoneInput" />
                   </InputGroup>
                 </Col>
               </Row>
               <Row>
                 <Col>
                 <InputGroup className="contactInputGroup">
-                  <FormControl as="textarea" placeholder="Type your message here.." className="contactTextArea" />
+                  <FormControl rows="4" as="textarea" name="Phone" placeholder="Type your message here.." className="contactTextArea" id="messageInput" />
                 </InputGroup>
                 </Col>
               </Row>
               <Row>
                 <Col>
-                <a href={link}>
                   <button
                     className="contactSubmitButton"
                     style={{ backgroundColor: isMouseOver ? "#05B0C6" : "#EA8B11", color: isMouseOver ? "#FFFFFF" : "#52463C"}}
@@ -71,7 +74,6 @@ function Contact() {
                     onMouseOut={handleMouseOut}
                     onClick={handleMouseClick}
                     >{isMouseClicked ? "Submitted!" :  "Submit"}</button>
-                  </a>
                 </Col>
               </Row>
             </Container>
