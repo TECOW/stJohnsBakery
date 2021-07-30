@@ -1,0 +1,83 @@
+.homeContainer {
+  max-width: 990px;
+  height:510px;
+  margin-bottom: 6px;
+}
+
+.homeRow {
+  height: 510px;
+}
+
+.bodyBoxes {
+  padding:0;
+  height: 510px;
+}
+
+.tallBreadImage {
+  width: 310px;
+  border: 10px #f1eade solid;
+  margin: 24px 0 24px 20px;
+  object-fit: cover;
+}
+
+.shortBreadTopImage {
+  width: 310px;
+  height: 226px;
+  border: 10px #f1eade solid;
+  margin: 24px 10px 0 10px;
+  object-fit: cover;
+}
+
+.shortBreadBottomImage {
+  width: 310px;
+  height: 226px;
+  border: 10px #f1eade solid;
+  margin: 5px 10px 24px 10px;
+  object-fit: cover;
+}
+
+.doubleHeight {
+  width:330px;
+  height:510px;
+  margin: 0;
+}
+
+.singleHeight {
+  height:255px;
+  width:330px;
+  margin: 0;
+}
+
+.textContainer {
+  margin: 24px 20px 24px 0;
+  padding: 0;
+}
+
+.breadDescription {
+  background: #f1eade;
+  padding: 40px 40px 0 25px;
+  color: #3E2B1C;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+.homeBodyText {
+  background:#f1eade;
+  padding: 15px 40px 34px 25px;
+  color: #3E2B1C;
+  font-weight: 100;
+  font-family: 'Advent Pro', sans-serif;;
+  font-size: 16px;
+  margin: 0;
+}
+
+.sign {
+  font-weight: 900;
+  color: #3E2B1C;
+  background: #f1eade;
+  font-family: 'Mr De Haviland', cursive;
+  padding: 0 40px 69px 25px;
+  line-height: 40px;
+}

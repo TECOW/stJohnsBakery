@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+
 import "./HomeButton.css"
 
 function HomeButton(props) {
@@ -9,19 +11,17 @@ function handleMouseOver() {
 function handleMouseOut() {
   setMouseOver(false);
 }
-function scrollToAbout() {
-  window.scrollTo(300, 760);
-}
 return (
-  <button
-  className="homeButtons"
-    style={{ backgroundColor: isMouseOver ? "#3E2B1C" : "#f1eade", color: isMouseOver ? "#f1eade" : "#3E2B1C"}}
-    onMouseOver={handleMouseOver}
-    onMouseOut={handleMouseOut}
-    onClick={scrollToAbout}
-  >
-    {props.buttonName}
-  </button>
+  <Link to={props.path}>
+    <button
+      className="homeButtons"
+      style={{ backgroundColor: isMouseOver ? "#3E2B1C" : "#f1eade", color: isMouseOver ? "#f1eade" : "#3E2B1C"}}
+      onMouseOver={handleMouseOver}
+      onMouseOut={handleMouseOut}
+    >
+      {props.buttonName}
+    </button>
+  </Link>
 );
 }
 

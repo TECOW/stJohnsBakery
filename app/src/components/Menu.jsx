@@ -1,9 +1,26 @@
+import React, {useEffect, useState} from 'react';
 import "./Menu.css"
 import "./App.css"
 import "./About.css"
 import {Container, Row, Col, Image} from "react-bootstrap"
 
-function Menu(props) {
+function Menu() {
+  const [breads, setBreads] = useState([]);
+  const [sweets, setSweets] = useState([]);
+
+  useEffect(() => {
+    fetch("/breads")
+      .then((res) => res.json())
+      .then((data) => setBreads(data.breads));
+    }, []);
+
+
+  useEffect(() => {
+    fetch("/sweets")
+      .then((res) => res.json())
+      .then((data) => setSweets(data.sweets));
+    }, []);
+
   return (
     <div className="aboutContainer">
       <Container>
@@ -19,7 +36,7 @@ function Menu(props) {
             <hr className="menuLine" />
             <p className="menuText">I'm a paragraph. Click here to add your own text and edit me. It’s easy.</p>
           </Col>
-          {props.breads.map(bread => {
+          {breads.map(bread => {
             return (
               <Col>
                 <Image className="menuImage" src={bread.imagePath} alt={bread.name}/>
@@ -35,7 +52,7 @@ function Menu(props) {
             <hr className="menuLine" />
             <p className="menuText">I'm a paragraph. Click here to add your own text and edit me. It’s easy.</p>
           </Col>
-          {props.sweets.map(sweet => {
+          {sweets.map(sweet => {
             return (
               <Col>
                 <Image className="menuImage" src={sweet.imagePath} alt={sweet.name}/>

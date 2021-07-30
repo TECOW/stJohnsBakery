@@ -8,6 +8,15 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
+  background-color: #f1eade;
+}
+
+.buttonText {
+  color: #3E2B1C;
+}
+
+.homeButton:hover .buttonText {
+  color: #f1eade;
 }
 
 .homeNavBar {
@@ -29,8 +38,4 @@ h3 {
 .navbarCol {
   padding: 0 0 0 0;
   margin: 0 0 0 0;
-}
-
-.homeButtons:hover {
-  background-color: blue;
 }
