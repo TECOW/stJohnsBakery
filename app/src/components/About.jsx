@@ -1,8 +1,16 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import "./About.css"
 import {Container, Row, Col, Image} from "react-bootstrap"
 
-function About(props) {
+function About() {
+  const [bakings, setBakings] = useState([]);
+  
+  useEffect(() => {
+    fetch("/bakings")
+      .then((res) => res.json())
+      .then((data) => setBakings(data.bakings));
+    }, []);
+
   return (
     <div className="aboutContainer">
       <Container>
@@ -13,7 +21,7 @@ function About(props) {
           </Col>
         </Row>
         <Row>
-          {props.bakings.map(baking => {
+          {bakings.map(baking => {
             return (
             <Col className="aboutPictureCol">
               <Image className="aboutBreadImageLeft" src={baking.imagePath} alt="About1"/>

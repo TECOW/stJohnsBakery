@@ -1,10 +1,26 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import "./OrderOnline.css"
 
 import {Card, Button, Container, Row, Col, Image, Tabs, Tab} from "react-bootstrap"
 
 
-function OrderOnline(props) {
+function OrderOnline() {
+  const [breads, setBreads] = useState([]);
+  const [sweets, setSweets] = useState([]);
+
+  useEffect(() => {
+    fetch("/breads")
+      .then((res) => res.json())
+      .then((data) => setBreads(data.breads));
+    }, []);
+
+
+  useEffect(() => {
+    fetch("/sweets")
+      .then((res) => res.json())
+      .then((data) => setSweets(data.sweets));
+    }, []);
+
   return (
     <Container className="orderContainer">
       <Row>
@@ -21,7 +37,7 @@ function OrderOnline(props) {
       </Row>
         <Tabs defaultActiveKey="breads" id="orderId" className="orderTabs">
           <Tab eventKey="breads" title="Breads">
-            {props.breads.map(bread => {
+            {breads.map(bread => {
               return (
                 <Card className="orderCard">
                 <Card.Img variant="top" src={bread.imagePath} className="orderImage"/>
@@ -35,7 +51,7 @@ function OrderOnline(props) {
             })}
           </Tab>
           <Tab eventKey="sweets" title="Sweets">
-            {props.sweets.map(sweet => {
+            {sweets.map(sweet => {
               return (
                 <Card className="orderCard">
                   <Card.Img variant="top" src={sweet.imagePath} className="orderImage"/>

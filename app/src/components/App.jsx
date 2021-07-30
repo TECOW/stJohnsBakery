@@ -1,7 +1,8 @@
-import React, {useEffect, useState} from "react";
+import React, {Component} from "react";
 import Header from "./Header";
 import "./App.css";
-import {Container, Row, Col, Image, Tabs, Tab} from "react-bootstrap";
+import {Route, Switch} from "react-router-dom";
+import Home from "./Home";
 import Contact from "./Contact";
 import About from "./About";
 import Menu from "./Menu";
@@ -9,72 +10,17 @@ import OrderOnline from "./OrderOnline";
 import Footer from "./Footer";
 
 function App() {
-  const [breads, setBreads] = useState([]);
-  const [bakings, setBakings] = useState([]);
-  const [sweets, setSweets] = useState([]);
-
-  useEffect(() => {
-    fetch("/breads")
-      .then((res) => res.json())
-      .then((data) => setBreads(data.breads));
-    }, []);
-
-  useEffect(() => {
-    fetch("/bakings")
-      .then((res) => res.json())
-      .then((data) => setBakings(data.bakings));
-    }, []);
-
-  useEffect(() => {
-    fetch("/sweets")
-      .then((res) => res.json())
-      .then((data) => setSweets(data.sweets));
-    }, []);
-
   return (
-    <div className="HomeBody">
-        <Header />
-        <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
-        <Container className="appContainer">
-          <Row className="appRow">
-            <Col className="bodyBoxes" md="4">
-              <Row className="doubleHeight">
-                <Image className="tallBreadImage" src="/images/HomeBread1.png" alt="HomeBread1"/>
-              </Row>
-            </Col>
-            <Col className="bodyBoxes" md="4">
-              <Row className="singleHeight">
-                <Image className="shortBreadTopImage" src="/images/HomeBread2.png" alt="HomeBread2"/>
-              </Row>
-              <Row className="singleHeight">
-                <Image className="shortBreadBottomImage" src="/images/HomeBread3.png" alt="HomeBread3"/>
-              </Row>
-            </Col>
-            <Col className="bodyBoxes" md="4">
-              <Row className="doubleHeight">
-              <Container className="textContainer">
-                <h1 className="breadDescription">Baking From The Heart</h1>
-                <p className="homeBodyText">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
-                <h2 className="sign">Erin Bae</h2>
-                </Container>
-              </Row>
-            </Col>
-          </Row>
-        </Container>
-          <About
-          id="middle"
-          bakings={bakings}/>
-          <Menu
-          breads={breads}
-          sweets={sweets}
-          />
-          <OrderOnline
-          breads={breads}
-          sweets={sweets}
-          />
-        <Contact />
-        <Footer />
-      </Tabs>
+    <div className="appBody">
+      <Header />
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/about" component={About} />
+        <Route path="/menu" component={Menu} />
+        <Route path="/order" component={OrderOnline} />
+        <Route path="/contact" component={Contact} />
+      </Switch>
+      <Footer />
     </div>
   );
 }
