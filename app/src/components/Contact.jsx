@@ -14,10 +14,10 @@ function Contact() {
   }
   function handleMouseClick() {
     setMouseClicked(true)
-    var input = document.getElementById("nameInput").value + " " + document.getElementById("emailInput").value + " " + document.getElementById("phoneInput").value + " " + document.getElementById("messageInput").value;
+    const input = document.getElementById("nameInput").value + " " + document.getElementById("emailInput").value + " " + document.getElementById("phoneInput").value + " " + document.getElementById("messageInput").value;
     /*input[0].select();
     document.execCommand("copy");*/
-    alert("Please copy this to the body section of the email : " + (input));
+    console.log(input)
 }
 
   return (
