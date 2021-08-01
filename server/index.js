@@ -9,6 +9,35 @@ const breads = require('./breads.json');
 const sweets = require('./sweets.json');
 const bakings = require('./bakings.json');
 
+const mongoose = require('mongoose');
+mongoose.connect("mongodb+srv://admin-hyoeun:minma630@cluster0.g2gca.mongodb.net/inputsDB", {useNewUrlParser: true});
+
+const inputSchema = new mongoose.Schema ({
+  name: String,
+  email: String,
+  phone: Number,
+  message: String
+});
+
+const Input = mongoose.model("Input", inputSchema);
+
+const input = new inputSchema ({
+  name: {String},
+  email: {String},
+  phone: {Number},
+  message: {String}
+})
+
+Input.insertOne([a], function(err){
+  if (err) {
+    console.log(err);
+  } else {
+    console.log("Sucessfully saved inputdatas");
+  }
+});
+
+
+
 app.use(express.static(path.resolve(__dirname, '../app/public')));
 
 app.get("/api", (req, res) => {

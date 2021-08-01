@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css"
-import {Card, Button, Container, Row, Col, Image, InputGroup, FormControl} from "react-bootstrap"
+import {Container, Row, Col, InputGroup, FormControl} from "react-bootstrap"
 
 
 function Contact() {

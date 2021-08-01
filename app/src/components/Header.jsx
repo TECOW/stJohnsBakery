@@ -17,14 +17,16 @@ import {Container, Row, Col, Navbar} from "react-bootstrap"
 //}
 //
 function Header() {
-  const [isMouseOver, setMouseOver] = useState(false);
+  function refreshPage(){
+    window.location.reload();
+  }
 
   return (
     <div className="headerDiv">
       <Navbar fixed="top" expand="lg" className="homeNavBar">
         <Container className="Headers">
           <Row className="headerRow">
-            <Col className="navbarCol">
+            <Col className="navbarCol" onClick={refreshPage}>
               <h3 clssName="NavbarName" >Saint Johns Bakery</h3>
             </Col>
             <Col className="headerButtons"><HomeButton className="homeButton" buttonName="Home" path="/"/></Col>
