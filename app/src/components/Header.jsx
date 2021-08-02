@@ -3,19 +3,6 @@ import HomeButton from "./HomeButton";
 import "./Header.css"
 import {Container, Row, Col, Navbar} from "react-bootstrap"
 
-//function Header() {
-//  return (
-//    <div className="headerDiv">
-//      <h1 className="headerWebsiteName">Saint Johns Bakery</h1>
-//    <Container className="Headers">
-//      <Row className="headerRow">
-//        <Col className="headerButtons"><HomeButton className="homeButton" /></Col>
-//      </Row>
-//      </Container>
-//    </div>
-//  );
-//}
-//
 function Header() {
   function refreshPage(){
     window.location.reload();

@@ -1,16 +1,19 @@
 const express = require("express");
 const path = require("path");
-
+const bodyParser = require("body-parser");
 const PORT = process.env.PORT || 3001;
 
 const app = express();
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 
 const breads = require('./breads.json');
 const sweets = require('./sweets.json');
 const bakings = require('./bakings.json');
-
 const mongoose = require('mongoose');
-mongoose.connect("mongodb+srv://admin-hyoeun:minma630@cluster0.g2gca.mongodb.net/inputsDB", {useNewUrlParser: true});
+mongoose.connect("mongodb+srv://admin-hyoeun:minma630@cluster0.g2gca.mongodb.net/inputsDB", {useNewUrlParser: true, useUnifiedTopology: true});
+
+app.use(express.static(path.resolve(__dirname, '../app/public')));
 
 const inputSchema = new mongoose.Schema ({
   name: String,
@@ -20,25 +23,6 @@ const inputSchema = new mongoose.Schema ({
 });
 
 const Input = mongoose.model("Input", inputSchema);
-
-const input = new inputSchema ({
-  name: {String},
-  email: {String},
-  phone: {Number},
-  message: {String}
-})
-
-Input.insertOne([a], function(err){
-  if (err) {
-    console.log(err);
-  } else {
-    console.log("Sucessfully saved inputdatas");
-  }
-});
-
-
-
-app.use(express.static(path.resolve(__dirname, '../app/public')));
 
 app.get("/api", (req, res) => {
   res.json({ message: "Hello from server!" });
@@ -57,6 +41,19 @@ app.get("/bakings", (req, res) => {
 app.get("/sweets", (req, res) => {
   res.header("Content-Type",'application/json');
   res.send(JSON.stringify(sweets));
+});
+
+app.post("/contact", (req, res) => {
+  console.log(req.body);
+  const input = new Input ({
+    name: req.body.nameInput,
+    email: req.body.emailInput,
+    phone: req.body.phoneInput,
+    message: req.body.messageInput
+  })
+
+  input.save();
+  res.json({ok:true});
 });
 
 app.get('*', (req, res) => {
