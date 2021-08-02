@@ -1,0 +1,43 @@
+body {
+  background-image: url("maru.jpg");
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Architects Daughter", cursive;
+  text-align: center;
+  font-size: 130%;
+  color: rgb(51, 36, 24);
+}
+
+.HomeBread1Container {
+  display: inline-block; /* the default for span */
+  width: 100px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 5px solid #f1eade;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.HomeBread1ImgFile img {
+  height: 200px;
+}
+
+.HomeBread2Container {
+  display: inline-block; /* the default for span */
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 5px solid #f1eade;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.HomeBread2ImgFile img {
+  height: 100px;
+}

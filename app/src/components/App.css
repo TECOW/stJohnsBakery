@@ -1,0 +1,5 @@
+.appBody {
+  background-image: url("../images/maru.jpg");
+  opacity: 0.97;
+  min-height: 100vh;
+}

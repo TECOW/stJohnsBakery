@@ -1,0 +1,47 @@
+
+.headerWebsiteName {
+  background: url("../images/WebsiteLogo.png") no-repeat;
+  background-position-x: 50%;
+  background-position-y: 72%;
+  margin: auto;
+  text-align: center;
+  color: #3E2B1C;
+  font-weight: 700;
+  display: block;
+  font-family: "Playfair Display", serif;
+  padding-top: 116px;
+  padding-bottom: 60px;
+  font-size: 48px;
+}
+
+.homeButton {
+  width: 190px;
+}
+
+.headerButtons {
+  padding: 0 0 0 0;
+}
+.homeNavBar {
+  background-color: #f1eade;
+  height: 56px;
+}
+
+
+.headerDiv {
+
+}
+.navbarCol {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+h3 {
+  margin: auto;
+  width: 190px;
+  color: #3E2B1C;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  padding: 12px 0 5px 0;
+  height: 56px;
+}
