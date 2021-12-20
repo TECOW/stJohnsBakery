@@ -3,13 +3,13 @@
     {
       "name": "Angeligus White Sourdough",
       "description": "Rustic everyday bread. Slightly hard shell with a soft bouncy centre.",
-      "price": "9",
+      "price": "6.25",
       "imagePath": "/images/Angeligus.jpg"
     },
     {
       "name": "Cassoni Whole Wheat Sourdough",
       "description": "This hearty, healthy bread is rich in flavour and texture.",
-      "price": "9",
+      "price": "6.25",
       "imagePath": "/images/Cassoni.jpg"
     },
     {
