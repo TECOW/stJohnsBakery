@@ -13,7 +13,7 @@ const bakings = require('./bakings.json');
 const mongoose = require('mongoose');
 mongoose.connect("mongodb+srv://admin-hyoeun:minma630@cluster0.g2gca.mongodb.net/inputsDB", {useNewUrlParser: true, useUnifiedTopology: true});
 
-app.use(express.static(path.resolve(__dirname, '../app/public')));
+app.use(express.static(path.resolve(__dirname, '../app/build')));
 
 const inputSchema = new mongoose.Schema ({
   name: String,
@@ -57,7 +57,7 @@ app.post("/contact", (req, res) => {
 });
 
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../app/public', 'index.html'));
+  res.sendFile(path.resolve(__dirname, '../app/build', 'index.html'));
 });
 
 app.listen(PORT, () => {
