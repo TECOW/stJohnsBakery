@@ -11,6 +11,21 @@
   background-color: #f1eade;
 }
 
+@media screen and (max-width: 600px) {
+  .homeButtons {
+    margin: auto;
+    width: 80px;
+    height: 26px;
+    font-family: "Playfair Display";
+    border: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1eade;
+  }
+}
+
+
 .buttonText {
   color: #3E2B1C;
 }
