@@ -1,88 +1,162 @@
-.homeContainer {
-  max-width: 990px;
-  height:510px;
-  margin-bottom: 6px;
+@media screen and (max-width: 800px) {
+  .homeBodyText {
+    background:#f1eade;
+    padding: 15px 40px 34px 25px;
+    color: #ff0000;
+    font-weight: 100;
+    font-family: 'Advent Pro', sans-serif;;
+    font-size: 16px;
+    margin: 0;
+  }
+  .homeRow {
+    height: 510px;
+  }
+
+  .bodyBoxes {
+    padding:0;
+    height: 510px;
+  }
+
+  .tallBreadImage {
+    width: 155px;
+    border: 5px #f1eade solid;
+    margin: 12px 0 12px 10px;
+    object-fit: cover;
+    float: left;
+  }
+
+  .shortBreadImage {
+    width: 155px;
+    height: 113px;
+    border: 5px #f1eade solid;
+    margin: 12px 5px 0 5px;
+    object-fit: cover;
+    float: right;
+  }
+
+  .doubleHeight {
+    width:155px;
+    height:255px;
+    margin: 0;
+  }
+
+  .singleHeight {
+    height:127px;
+    width:165px;
+    margin: 0;
+  }
+
+  .textContainer {
+    margin: 12px 00px 12px 0;
+    padding: 0;
+  }
+
+  .breadDescription {
+    background: #f1eade;
+    padding: 20px 20px 0 12px;
+    color: #3E2B1C;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin: 0;
+  }
+  .sign {
+    font-weight: 900;
+    color: #3E2B1C;
+    background: #f1eade;
+    font-family: 'Mr De Haviland', cursive;
+    padding: 0 20px 35px 12px;
+    line-height: 20px;
+  }
+  .homeContainer {
+    max-width: 495px;
+    height:235px;
+    margin-bottom: 3px;
+  }
+
 }
+@media screen and (min-width: 801px) {
+  .homeRow {
+    height: 510px;
+  }
 
-@media screen and (max-width: 600px) {
+  .bodyBoxes {
+    padding:0;
+    height: 510px;
+  }
 
+  .tallBreadImage {
+    width: 310px;
+    border: 10px #f1eade solid;
+    margin: 24px 0 24px 20px;
+    object-fit: cover;
+  }
 
-}
+  .shortBreadTopImage {
+    width: 310px;
+    height: 226px;
+    border: 10px #f1eade solid;
+    margin: 24px 10px 0 10px;
+    object-fit: cover;
+  }
 
-.homeRow {
-  height: 510px;
-}
+  .shortBreadBottomImage {
+    width: 310px;
+    height: 226px;
+    border: 10px #f1eade solid;
+    margin: 5px 10px 24px 10px;
+    object-fit: cover;
+  }
 
-.bodyBoxes {
-  padding:0;
-  height: 510px;
-}
+  .doubleHeight {
+    width:330px;
+    height:510px;
+    margin: 0;
+  }
 
-.tallBreadImage {
-  width: 310px;
-  border: 10px #f1eade solid;
-  margin: 24px 0 24px 20px;
-  object-fit: cover;
-}
+  .singleHeight {
+    height:255px;
+    width:330px;
+    margin: 0;
+  }
 
-.shortBreadTopImage {
-  width: 310px;
-  height: 226px;
-  border: 10px #f1eade solid;
-  margin: 24px 10px 0 10px;
-  object-fit: cover;
-}
+  .textContainer {
+    margin: 24px 20px 24px 0;
+    padding: 0;
+  }
 
-.shortBreadBottomImage {
-  width: 310px;
-  height: 226px;
-  border: 10px #f1eade solid;
-  margin: 5px 10px 24px 10px;
-  object-fit: cover;
-}
+  .breadDescription {
+    background: #f1eade;
+    padding: 40px 40px 0 25px;
+    color: #3E2B1C;
+    font-weight: 600;
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    margin: 0;
+  }
 
-.doubleHeight {
-  width:330px;
-  height:510px;
-  margin: 0;
-}
+  .homeBodyText {
+    background:#f1eade;
+    padding: 15px 40px 34px 25px;
+    color: #3E2B1C;
+    font-weight: 100;
+    font-family: 'Advent Pro', sans-serif;;
+    font-size: 16px;
+    margin: 0;
+  }
 
-.singleHeight {
-  height:255px;
-  width:330px;
-  margin: 0;
-}
+  .sign {
+    font-weight: 900;
+    color: #3E2B1C;
+    background: #f1eade;
+    font-family: 'Mr De Haviland', cursive;
+    padding: 0 40px 69px 25px;
+    line-height: 40px;
+  }
+  .homeContainer {
+    max-width: 990px;
+    height:510px;
+    margin-bottom: 6px;
+  }
 
-.textContainer {
-  margin: 24px 20px 24px 0;
-  padding: 0;
-}
-
-.breadDescription {
-  background: #f1eade;
-  padding: 40px 40px 0 25px;
-  color: #3E2B1C;
-  font-weight: 600;
-  font-family: "Playfair Display", serif;
-  font-size: 40px;
-  margin: 0;
-}
-
-.homeBodyText {
-  background:#f1eade;
-  padding: 15px 40px 34px 25px;
-  color: #3E2B1C;
-  font-weight: 100;
-  font-family: 'Advent Pro', sans-serif;;
-  font-size: 16px;
-  margin: 0;
-}
-
-.sign {
-  font-weight: 900;
-  color: #3E2B1C;
-  background: #f1eade;
-  font-family: 'Mr De Haviland', cursive;
-  padding: 0 40px 69px 25px;
-  line-height: 40px;
 }

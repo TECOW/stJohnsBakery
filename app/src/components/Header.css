@@ -14,7 +14,7 @@
   font-size: 48px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .homeNavBar {
     background-color: #f1eade;
     height: 26px;
@@ -22,7 +22,6 @@
   .homeButton {
     width: 95px;
   }
-
   .NavbarName {
     margin: auto;
     width: 950px;
@@ -48,7 +47,6 @@
     font-size: 24px;
   }
 }
-
 
 .homeButton {
   width: 190px;

@@ -13,10 +13,10 @@ function Home() {
         </Col>
         <Col className="bodyBoxes" md="4">
           <Row className="singleHeight">
-            <Image className="shortBreadTopImage" src="/images/HomeBread2.png" alt="HomeBread2"/>
+            <Image className="shortBreadImage" src="/images/HomeBread2.png" alt="HomeBread2"/>
           </Row>
           <Row className="singleHeight">
-            <Image className="shortBreadBottomImage" src="/images/HomeBread3.png" alt="HomeBread3"/>
+            <Image className="shortBreadImage" src="/images/HomeBread3.png" alt="HomeBread3"/>
           </Row>
         </Col>
         <Col className="bodyBoxes" md="4">

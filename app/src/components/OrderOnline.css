@@ -1,82 +1,170 @@
-.orderOnlineLogo {
-  text-align: center;
-  font-size: 30px;
-  color: #52463C;
-  font-weight: bold;
-  font-family: "Playfair Display", serif;
-  margin: 40px 300px 30px 300px;
-  padding: 10px 10px 10px 10px;
-  border: 5px #57493E solid;
+@media screen and (max-width: 800px) {
+  .orderOnlineLogo {
+    text-align: center;
+    font-size: 15px;
+    color: #52463C;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    margin: 20px 150px 15px 150px;
+    padding: 5px 5px 5px 5px;
+    border: 2px #57493E solid;
+  }
+
+  #orderId-tab-breads {
+    color: #3E2B1C;
+  }
+
+  #orderId-tab-sweets {
+    color: #3E2B1C;
+  }
+
+  .orderMenu{
+    width: 435px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    color: #3E2B1C;
+    font-size: 15px;
+    margin: 0 0 0 7px;
+  }
+
+  .orderLine {
+    border-top: 2px #A6907D solid;
+    margin: 5px 15px 5px 5px;
+  }
+
+  .orderContainer {
+    width: 475px;
+    margin: auto;
+    background: #f1eade;
+  }
+
+  .orderCol {
+    width: 140px;
+  }
+
+  .orderTab {
+    color: #A6907D;
+  }
+
+  .orderCard {
+    top: 0;
+    width: 140px;
+    height: 217px;
+    margin: 5px 5px 5px 5px;
+    background: #f1eade;
+    display: inline-block;
+  }
+
+  .orderImage {
+    width: 140px;
+    height: 110px;
+    object-fit: cover;
+  }
+
+  .orderTitle {
+    height: 25px;
+    font-family: "Playfair Display", serif;
+    color: #3E2B1C;
+    font-weight: 700;
+    font-size: 10px;
+  }
+
+  .orderText {
+    height: 37px;
+    font-family: 'Open Sans', sans-serif;
+    color: #6B5644;
+    font-size: 7px;
+    font-weight: 700;
+  }
+
+  .orderPrice {
+    font-family: "Playfair Display", serif;
+    color: #6B5644;
+  }
+
 }
 
-#orderId-tab-breads {
-  color: #3E2B1C;
-}
+@media screen and (min-width: 801px) {
+  .orderOnlineLogo {
+    text-align: center;
+    font-size: 30px;
+    color: #52463C;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    margin: 40px 300px 30px 300px;
+    padding: 10px 10px 10px 10px;
+    border: 5px #57493E solid;
+  }
 
-#orderId-tab-sweets {
-  color: #3E2B1C;
-}
+  #orderId-tab-breads {
+    color: #3E2B1C;
+  }
 
-.orderMenu{
-  width: 870px;
-  font-weight: bold;
-  font-family: "Playfair Display", serif;
-  color: #3E2B1C;
-  font-size: 30px;
-  margin: 0 0 0 15px;
-}
+  #orderId-tab-sweets {
+    color: #3E2B1C;
+  }
 
-.orderLine {
-  border-top: 3px #A6907D solid;
-  margin: 10px 30px 10px 10px;
-}
+  .orderMenu{
+    width: 870px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    color: #3E2B1C;
+    font-size: 30px;
+    margin: 0 0 0 15px;
+  }
 
-.orderContainer {
-  width: 950px;
-  margin: auto;
-  background: #f1eade;
-}
+  .orderLine {
+    border-top: 3px #A6907D solid;
+    margin: 10px 30px 10px 10px;
+  }
 
-.orderCol {
-  width: 280px;
-}
+  .orderContainer {
+    width: 950px;
+    margin: auto;
+    background: #f1eade;
+  }
 
-.orderTab {
-  color: #A6907D;
-}
+  .orderCol {
+    width: 280px;
+  }
 
-.orderCard {
-  top: 0;
-  width: 280px;
-  height: 434px;
-  margin: 10px 10px 10px 10px;
-  background: #f1eade;
-  display: inline-block;
-}
+  .orderTab {
+    color: #A6907D;
+  }
 
-.orderImage {
-  width: 280px;
-  height: 220px;
-  object-fit: cover;
-}
+  .orderCard {
+    top: 0;
+    width: 280px;
+    height: 434px;
+    margin: 10px 10px 10px 10px;
+    background: #f1eade;
+    display: inline-block;
+  }
 
-.orderTitle {
-  height: 50px;
-  font-family: "Playfair Display", serif;
-  color: #3E2B1C;
-  font-weight: 700;
-  font-size: 20px;
-}
+  .orderImage {
+    width: 280px;
+    height: 220px;
+    object-fit: cover;
+  }
 
-.orderText {
-  height: 75px;
-  font-family: 'Open Sans', sans-serif;
-  color: #6B5644;
-  font-size: 15px;
-  font-weight: 700;
-}
+  .orderTitle {
+    height: 50px;
+    font-family: "Playfair Display", serif;
+    color: #3E2B1C;
+    font-weight: 700;
+    font-size: 20px;
+  }
 
-.orderPrice {
-  font-family: "Playfair Display", serif;
-  color: #6B5644;
+  .orderText {
+    height: 75px;
+    font-family: 'Open Sans', sans-serif;
+    color: #6B5644;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .orderPrice {
+    font-family: "Playfair Display", serif;
+    color: #6B5644;
+  }
 }
